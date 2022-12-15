@@ -1,0 +1,42 @@
+
+db.products.insertOne({title:"ropero_pequeño", price: 2860, thumbnail: "https://cdn1.iconfinder.com/data/icseholds-vol-1-flat/58/53-Wardrobe-furniture_room_appliance_household-256.png"})
+
+db.products.insertOne({title: "mesa_espejo", price: 3350, thumbnail: "https://cdn1.iconfinder.com/data/iconholds-vol-1-flat/58/12-Vanity-furniture_room_appliance_household-256.png"})
+
+db.products.insertOne({title: "lavadora", price:4990, thumbnail:"https://cdn1.iconfinder.com/data/icons/pre-vol-1-flat/58/82-Washing_Machine-furniture_room_appliance_household-256.png"})
+
+db.products.insertOne({title: "refrigeradora", price: 4320, thumbnail: "https://cdnm/data/icons/prettycons-furniture-and-households-vol-1-flat/60/57-Fridge-furniture_room_applianc.png"})
+
+db.products.insertOne({title: "microondas", price:1700, thumbnail: "https://cdn1.icta/icons/prettycons-furniture-and-households-vol-1-flat/60/86-Microwave-furniture_room_appliancepng"})
+
+db.products.insertOne({title: "guardaropa_marrón", price: 2500, thumbnail: "https://.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/52-Wardrobe-furniture_room_appd-256.png"})
+
+db.products.insertOne({title: "mesa", price: 250, thumbnail: "https://cdn1.iconfindns/table-and-seating/64/tables_and_chairs-15-256.png"})
+
+
+db.createCollection('products')
+//Lista los documentos de cada colección
+db.products.find()
+db.messages.find()
+//Indica la cantidad de documentos en cada colección
+db.products.countDocuments()
+db.messages.countDocuments()
+//listar productos menores a 1000 pesos
+db.products.find({price: {$lt: 1000}})
+//listar productos entre los 1000 y 3000 pesos
+db.products.find({price: {$lt: 3000, $gt:1000}})
+//listar productos mayores a 3000 pesos
+db.products.find({price: {$gt:3000}})
+//agregar stock:100 a todos los prodcutos
+db.products.updateMany({},{$set:{stock:100}})
+//cambiar el stock de productos a 0 con precio mayores a 4000  
+db.products.updateMany({price:{$gt: 4000}},{$set:{stock:0}})
+//borrar productos con precio menor a 1000 
+db.products.deleteMany({price:{$lt:1000}})
+
+//usuario
+use admin
+db.createUser({user: "root", pwd: "password", roles:["root"]})
+db.createUser({user: "pepe", pwd: "asd456", roles:[role: "read", db: "ecommerce"]})
+
+
