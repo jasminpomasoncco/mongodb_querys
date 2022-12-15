@@ -1,3 +1,21 @@
+//insertar mensajes
+db.messages.insertOne({email: "jas@gmail.com", message: "hola", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_2", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_3", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_4", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_5", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_6", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_7", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_8", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_9", date: new Date()})
+db.messages.insertOne({email: "jas@gmail.com", message: "mensaje_prueba_10", date: new Date()})
+
+//insertar prodcutos
+db.products.insertOne({title: "mesa_noche", price: 900, thumbnail: "https://cdn1.iconfinder.com/data/icons/lds-vol-1-flat/59/45-Bookshelf-furniture_room_appliance_household-256.png"})
+
+db.products.insertOne({title: "estante", price: 1280, thumbnail: "https://cdn1.iconfinder.com/data/icons/prs-vol-1-flat/58/46-Bookshelf-furniture_room_appliance_household-256.png"})
+
+db.products.insertOne({title: "silla_oficina", price:580, thumbnail: "https://cdn1.iconfinder.com/data/iconat/58/13-Office_Chair-household_furniture_appliance_wardrobe-256.png"})
 
 db.products.insertOne({title:"ropero_pequeño", price: 2860, thumbnail: "https://cdn1.iconfinder.com/data/icseholds-vol-1-flat/58/53-Wardrobe-furniture_room_appliance_household-256.png"})
 
