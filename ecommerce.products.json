@@ -1,62 +1,51 @@
 [
   {
-    "_id": "639a7657906bf2ca1c9130e7",
-    "title": "mesa",
-    "price": "250",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/table-and-seating/64/tables_and_chairs-15-256.png"
-  },
-  {
-    "_id": "639a774b906bf2ca1c9130e8",
-    "title": "guardaropa_marrón",
-    "price": "2500",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/52-Wardrobe-furniture_room_appliance_household-256.png"
-  },
-  {
-    "_id": "639a77ef906bf2ca1c9130ea",
-    "title": "microondas",
-    "price": "1700",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/60/86-Microwave-furniture_room_appliance_household-256.png"
-  },
-  {
-    "_id": "639a7849906bf2ca1c9130eb",
-    "title": "refrigeradora",
-    "price": "4320",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/60/57-Fridge-furniture_room_appliance_household-256.png"
-  },
-  {
-    "_id": "639a7be8906bf2ca1c9130ec",
-    "title": "lavadora",
-    "price": "4990",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/82-Washing_Machine-furniture_room_appliance_household-256.png"
-  },
-  {
-    "_id": "639a7d67906bf2ca1c9130ee",
-    "title": "mesa_espejo",
-    "price": "3350",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/12-Vanity-furniture_room_appliance_household-256.png"
-  },
-  {
-    "_id": "639a7dd6906bf2ca1c9130ef",
-    "title": "ropero_pequeño",
-    "price": "2860",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/53-Wardrobe-furniture_room_appliance_household-256.png"
-  },
-  {
-    "_id": "639a7e10906bf2ca1c9130f0",
-    "title": "silla_oficina",
-    "price": "580",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-households-vol-2-flat/58/13-Office_Chair-household_furniture_appliance_wardrobe-256.png"
-  },
-  {
-    "_id": "639a7eca906bf2ca1c9130f1",
+    "_id": "639aa080906bf2ca1c9130f4",
     "title": "estante",
-    "price": "1280",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/46-Bookshelf-furniture_room_appliance_household-256.png"
+    "price": 1280,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prs-vol-1-flat/58/46-Bookshelf-furniture_room_appliance_household-256.png",
+    "stock": 100
   },
   {
-    "_id": "639a7f02906bf2ca1c9130f2",
-    "title": "mesa_noche",
-    "price": "900",
-    "thumbnail": "https://cdn1.iconfinder.com/data/icons/prettycons-furniture-and-households-vol-1-flat/59/45-Bookshelf-furniture_room_appliance_household-256.png"
+    "_id": "639aa08e906bf2ca1c9130f6",
+    "title": "ropero_pequeño",
+    "price": 2860,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icseholds-vol-1-flat/58/53-Wardrobe-furniture_room_appliance_household-256.png",
+    "stock": 100
+  },
+  {
+    "_id": "639aa093906bf2ca1c9130f7",
+    "title": "mesa_espejo",
+    "price": 3350,
+    "thumbnail": "https://cdn1.iconfinder.com/data/iconholds-vol-1-flat/58/12-Vanity-furniture_room_appliance_household-256.png",
+    "stock": 100
+  },
+  {
+    "_id": "639aa09b906bf2ca1c9130f8",
+    "title": "lavadora",
+    "price": 4990,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/pre-vol-1-flat/58/82-Washing_Machine-furniture_room_appliance_household-256.png",
+    "stock": 0
+  },
+  {
+    "_id": "639aa0a8906bf2ca1c9130f9",
+    "title": "refrigeradora",
+    "price": 4320,
+    "thumbnail": "https://cdnm/data/icons/prettycons-furniture-and-households-vol-1-flat/60/57-Fridge-furniture_room_applianc.png",
+    "stock": 0
+  },
+  {
+    "_id": "639aa0ad906bf2ca1c9130fa",
+    "title": "microondas",
+    "price": 1700,
+    "thumbnail": "https://cdn1.icta/icons/prettycons-furniture-and-households-vol-1-flat/60/86-Microwave-furniture_room_appliancepng",
+    "stock": 100
+  },
+  {
+    "_id": "639aa0b2906bf2ca1c9130fb",
+    "title": "guardaropa_marrón",
+    "price": 2500,
+    "thumbnail": "https://.com/data/icons/prettycons-furniture-and-households-vol-1-flat/58/52-Wardrobe-furniture_room_appd-256.png",
+    "stock": 100
   }
 ]
