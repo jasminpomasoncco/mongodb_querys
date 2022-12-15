@@ -45,6 +45,8 @@ db.products.find({price: {$lt: 1000}})
 db.products.find({price: {$lt: 3000, $gt:1000}})
 //listar productos mayores a 3000 pesos
 db.products.find({price: {$gt:3000}})
+//nombre del tercer producto más barato
+db.products.find({},{title:1}).sort({price: 1}).skip(2).limit(1)
 //agregar stock:100 a todos los prodcutos
 db.products.updateMany({},{$set:{stock:100}})
 //cambiar el stock de productos a 0 con precio mayores a 4000  
